@@ -1,3 +1,7 @@
+body {
+    font-family: arial,sans-serif;
+}
+
 .menu {
     background-color:white;
 }
@@ -23,11 +27,11 @@
 }
 
 #menu_lists li a:hover {
-    background-color: rgb(124, 194, 124);
+    color: rgb(124, 194, 124);
 }
 
 .active {
-    background-color: rgb(139, 139, 248);
+    color: rgb(6, 6, 107);
 }
 
 .google_form {
@@ -76,3 +80,10 @@
     text-align: center;
     white-space: nowrap
 }
+
+#google_logo {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
