@@ -1,0 +1,44 @@
+.menu {
+    background-color:white;
+}
+
+#menu_lists {
+    list-style-type: None;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#menu_lists li {
+    float: right;
+}
+
+#menu_lists li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#menu_lists li a:hover {
+    background-color: rgb(124, 194, 124);
+}
+
+.active {
+    background-color: rgb(139, 139, 248);
+}
+
+.google_form {
+    text-align: center;
+    padding: 50px;
+}
+
+.input_field {
+    padding: 10px;
+}
+
+.input_button {
+    padding: 10px;
+}
