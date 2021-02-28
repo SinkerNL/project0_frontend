@@ -13,12 +13,21 @@
             </ul>
         </header>
 
-        <form class="google_form" action="https://google.com/search">
-            <div class ="input_field">
-                <input type="text" name="q" id="input_field_id">
-            </div>
-            <div class = "input_button">
-                <input type="submit" value="Google Search">
+        <form class="google_form_advanced" action="https://google.com/search">
+            <div class ="input_field_advanced">
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q" id="input_field_id_advanced">
+
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq" id="input_field_id_advanced">
+
+                <label for="as_oq">any of these words:</label>
+                <input type="text" name="as_oq" id="input_field_id_advanced">
+
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq" id="input_field_id_advanced">
+
+                <input type="submit" value="Advanced search" id="input_button_advanced">
             </div>
         </form>
     </body>

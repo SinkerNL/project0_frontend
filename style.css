@@ -35,11 +35,16 @@
     padding: 50px;
 }
 
+.google_form_advanced {
+    padding: 50px;
+}
+
 .input_field {
     padding: 10px;
 }
 
 .input_button {
+    text-align: center;
     padding: 10px;
 }
 
@@ -49,4 +54,25 @@
     border-radius: 18px; 
     padding: 10px;
     border-width: 1px;
+}
+
+.input_field_advanced {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+.input_field_advanaced label       { text-align:right; }
+
+#input_button_advanced {
+    overflow: hidden;
+    float: right;
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap
 }
